@@ -3,3 +3,14 @@ body{
     font-weight: 400;
     font-size: rem(16px);
 }
+
+
+// 테스트 코드
+.container{
+    background: yellow;
+    @include boxFixed;
+}
+.header{
+    background: pink;
+    @include flexbox(column);
+}
